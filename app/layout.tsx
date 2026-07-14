@@ -140,7 +140,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(dentistSchema) }}
         />
       </head>
-      <body className="min-h-full flex flex-col bg-white text-brand-navy">
+      <body className="min-h-full flex flex-col bg-white text-brand-navy" suppressHydrationWarning>
         {children}
       </body>
     </html>

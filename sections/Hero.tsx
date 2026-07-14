@@ -129,7 +129,7 @@ export default function Hero() {
             <div className="relative w-full max-w-md lg:max-w-none aspect-[3/2] lg:aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white z-10 bg-brand-sky/20">
               <Image
                 src="/images/hero_dentist.jpg"
-                alt="Dra. Daniele Campos atendendo paciente com carinho"
+                alt="Dra. Daniele Campos em atendimento odontológico"
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 40vw"
